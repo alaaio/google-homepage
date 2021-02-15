@@ -1,0 +1,135 @@
+
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+h1 {
+  color: rgb(116, 114, 114);
+  text-align: center;
+  padding-block: 0;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+}
+
+li {
+  float: left;
+}
+li.right {
+  float: right;
+}
+i.icon {
+  float: right;
+  display: block;
+  color: rgb(66, 62, 62);
+  text-align: right;
+  padding: 10px 16px;
+  
+}
+
+li a {
+  display: block;
+  color: rgb(66, 62, 62);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  text-decoration: red;
+}
+
+
+
+
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+
+i.search-icon {
+  padding: 25;
+}
+
+.searchTerm {
+  width: 90%;
+  border: none;
+  border-right: none;
+  
+ 
+ 
+  outline: none;
+  color: #000000;
+}
+
+.searchTerm:focus{
+  color: #000000;
+}
+
+.micButton {
+  background: none;
+	color: rgb(80, 82, 85);
+	border: none;
+	padding: 12px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+  position: left;
+}
+.micButton .mic-icon {
+  padding-right: 10px;
+  translate: 50%;
+}
+
+.search .search-icon{
+  color: rgb(75, 156, 180);
+  padding: 12px;
+}
+.wrap{
+  border-radius: 15px;
+  width: 50%;
+  border: 1px solid #4e4c4c;
+  position: center;
+  top: 10%;
+  left: 50%;
+  translate: 50%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.61);
+  text-align: center;
+  align-items: right;
+  padding-bottom: 10px;
+  padding-top:5px;
+  
+}
+.container .footerLink{
+  color: rgb(255, 255, 255);
+  padding-bottom: 10%;
+  text-decoration: none;
+  flex-direction: row;
+  
+}
+.container {
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+
